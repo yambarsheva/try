@@ -26,7 +26,7 @@ namespace Практическая__8
             int count = (int)Math.Ceiling((Xmax - Xmin) / step);
             double[] x = new double[count];
             double[] y1 = new double[count];
-            for (int i = 0; i <count; i++)
+            for (int i = 1; i <count; i++)
             {
                 x[i] = Xmin + step * i;
                 if (x[i]<-1) y1[i] =x[i]+1;
