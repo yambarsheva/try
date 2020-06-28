@@ -28,7 +28,7 @@ namespace Практическая__8
             double[] y1 = new double[count];
             for (int i = 1; i <count; i++)
             {
-                x[i] = Xmin + step * i;
+                x[i] = Xmin + i * step;
                 if (x[i]<-1) y1[i] =x[i]+1;
             else y1[i] = 1 - x[i];
             }
